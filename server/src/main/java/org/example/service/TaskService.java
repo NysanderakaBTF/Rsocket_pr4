@@ -23,22 +23,20 @@ public class TaskService {
         task.setDescription(description);
         task.setCreatedAt(LocalDateTime.now());
         task.setCompleted(false);
-        return Mono.just(taskRepository.save(task));
+        return taskRepository.save(task);
     }
 
     public Flux<Task> getAllTasks() {
-        return Flux.fromIterable(taskRepository.findAll());
+        return taskRepository.findAll();
     }
 
-    public Optional<Mono<Object>> completeTask(Long taskId) {
+    public Mono<Object> completeTask(Long taskId) {
         return taskRepository.findById(taskId)
                 .map(task -> {
                     task.setCompleted(true);
-                    taskRepository.save(task);
-                    return Mono.empty();
-                });
+                }).map(o -> taskRepository.save(o));
     }
     public Mono<Task> getTaskById(Long taskId) {
-        return Mono.justOrEmpty(taskRepository.findById(taskId));
+        return taskRepository.findById(taskId);
     }
 }
