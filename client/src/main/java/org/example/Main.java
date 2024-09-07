@@ -1,14 +1,13 @@
 package org.example;
-
-
+import io.rsocket.core.RSocketConnector;
+import io.rsocket.transport.netty.client.TcpClientTransport;
+import io.rsocket.util.DefaultPayload;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.time.Duration;
 
 public class Main {
-    private final RSocket rSocket;
-
     public static void main(String[] args) {
         var rSocket = RSocketConnector.create()
                 .connect(TcpClientTransport.create("localhost", 7000))

@@ -32,8 +32,9 @@ public class TaskController {
 
     // 3. Fire-and-Forget: Создание новой задачи (не возвращает ответ)
     @MessageMapping("fire-and-forget")
-    public Mono<Void> createTask(String description) {
-        return taskService.createTask(description).then();
+    public Mono<Void> createTask(Long taskId) {
+        taskService.completeTask(taskId);
+        return Mono.empty();
     }
 
     // 4. Channel: Двусторонний обмен данными. Получаем поток описаний задач и создаем их.
