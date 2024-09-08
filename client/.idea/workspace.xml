@@ -4,41 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5793641-04f2-4eb3-a5ba-d6113e3d58ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/client/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/config/R2DBCConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/repositoies/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3915acea-8681-4b16-a62a-1dc4227ee0c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../server/amplicode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/resources/db/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/resources/db/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/client/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/client/ClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/config/RSocketConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/controller/TaskController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/model/Task.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/repository/TaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/server/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/ServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/service/TaskService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/test/java/org/example/server/ServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/org/example/server/ServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/server/config/R2DBCConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/server/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/server/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/server/repositoies/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/repositoies/TaskRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/server/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/service/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -46,15 +35,16 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;NysanderakaBTF&quot;
+    &quot;assignee&quot;: &quot;venommile&quot;
   }
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/NysanderakaBTF/Rsocket_pr4.git&quot;,
-    &quot;accountId&quot;: &quot;be833d98-f294-4875-8dac-dd5beceab169&quot;
+    &quot;accountId&quot;: &quot;d6eea5e8-4105-41b7-a445-77e1e34e0826&quot;
   }
 }</component>
+  <component name="GradleModuleStateConfig" initialized="true" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -63,32 +53,38 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2lmJMJ186vsH3ENADRTSfqzZReB" />
+  <component name="ProjectId" id="2lnlc67iz1VaFYCleNiYy5IFmeU" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.ClientApplication.executor": "Run",
-    "git-widget-placeholder": "attempt2",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ClientApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;attempt2&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mihailgalcev/Desktop/рксп/4/client&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="client" />
@@ -109,13 +105,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d5793641-04f2-4eb3-a5ba-d6113e3d58ef" name="Changes" comment="" />
-      <created>1725779270601</created>
+      <changelist id="3915acea-8681-4b16-a62a-1dc4227ee0c8" name="Changes" comment="" />
+      <created>1725823797760</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725779270601</updated>
-      <workItem from="1725779386609" duration="602000" />
-      <workItem from="1725784710237" duration="2726000" />
+      <updated>1725823797760</updated>
+      <workItem from="1725823798867" duration="13000" />
+      <workItem from="1725823826474" duration="1607000" />
+      <workItem from="1725826020590" duration="64000" />
+      <workItem from="1725826247655" duration="947000" />
     </task>
     <servers />
   </component>

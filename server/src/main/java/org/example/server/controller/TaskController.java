@@ -58,10 +58,8 @@ public class TaskController {
     @MessageMapping("task/batchcreate")
     public Flux<Task> batchCreate(Flux<Task> tasks) {
         return tasks
-                .doOnNext(task ->{
-                    taskService.createTask(task.getDescription());
-                })
-                .map(ld -> ld);
+                .flatMap(task -> taskService.createTask(task.getDescription()));
     }
+
 
 }

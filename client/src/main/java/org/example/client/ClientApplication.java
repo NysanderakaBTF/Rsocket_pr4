@@ -70,7 +70,7 @@ public class ClientApplication implements CommandLineRunner {
 		rsocketRequester
 				.route("task/batchcreate")
 				.data(taskFlux)
-				.retrieveFlux(Boolean.class)
+				.retrieveFlux(Task.class)
 				.subscribe(System.out::println);
 
 	}

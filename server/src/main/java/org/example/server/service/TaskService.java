@@ -2,6 +2,7 @@ package org.example.server.service;
 
 import org.example.server.model.Task;
 import org.example.server.repositoies.TaskRepository;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -9,7 +10,7 @@ import reactor.core.publisher.Mono;
 import java.time.LocalDateTime;
 
 @Service
-public class TaskService {
+public class TaskService implements CommandLineRunner {
 
     private final TaskRepository taskRepository;
 
@@ -38,5 +39,11 @@ public class TaskService {
     }
     public Mono<Task> getTaskById(Long taskId) {
         return taskRepository.findById(taskId);
+    }
+
+    @Override
+    public void run(String... args) throws Exception {
+        System.out.println(taskRepository.findAll().blockFirst());
+
     }
 }
