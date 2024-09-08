@@ -12,8 +12,9 @@ import java.time.LocalDateTime;
 @Entity
 public class Task {
 
-    @Id
+    @jakarta.persistence.Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @org.springframework.data.annotation.Id
     private Long id;
     private String description;
     private LocalDateTime createdAt;

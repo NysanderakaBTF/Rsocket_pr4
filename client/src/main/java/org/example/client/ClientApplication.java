@@ -23,7 +23,7 @@ public class ClientApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		RSocketRequester rsocketRequester = requesterBuilder.tcp("localhost", 7000);
+		RSocketRequester rsocketRequester = requesterBuilder.tcp("127.0.0.1", 7000);
 
 
 		//Fire-and-Forget: Создание новой задачи (не возвращает ответ)
