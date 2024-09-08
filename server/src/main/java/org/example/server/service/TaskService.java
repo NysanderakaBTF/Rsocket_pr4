@@ -1,13 +1,12 @@
-package org.example.service;
+package org.example.server.service;
 
-import org.example.model.Task;
-import org.example.repository.TaskRepository;
+import org.example.server.model.Task;
+import org.example.server.repositoies.TaskRepository;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 import java.time.LocalDateTime;
-import java.util.Optional;
 
 @Service
 public class TaskService {
@@ -34,6 +33,7 @@ public class TaskService {
         return taskRepository.findById(taskId)
                 .map(task -> {
                     task.setCompleted(true);
+                    return task;
                 }).map(o -> taskRepository.save(o));
     }
     public Mono<Task> getTaskById(Long taskId) {
