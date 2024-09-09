@@ -32,7 +32,7 @@ public class ClientApplication implements CommandLineRunner {
 				.route("task/new")
 				.data(new Task(null, "created", LocalDateTime.now(), false))
 				.send()
-				.subscribe();
+				.block();
 
 		//request-response
 		System.out.println("request-response - get 1 task by id");
@@ -47,16 +47,14 @@ public class ClientApplication implements CommandLineRunner {
 				.route("task/all")
 				.retrieveFlux(Task.class)
 				.doOnNext(System.out::println)
-				.subscribe();
-
-
+				.blockLast();
 
 		System.out.println("request-response - get all tasks");
 		rsocketRequester
 				.route("task/all")
 				.retrieveFlux(Task.class)
 				.doOnNext(System.out::println)
-				.subscribe();
+				.blockLast();
 		//Channel: Двусторонний обмен данными. Получаем поток описаний задач и создаем их.
 		System.out.println("Channel: Двусторонний обмен данными. Получаем поток описаний задач и создаем их.");
 		Flux<Task> taskFlux =
@@ -71,7 +69,7 @@ public class ClientApplication implements CommandLineRunner {
 				.route("task/batchcreate")
 				.data(taskFlux)
 				.retrieveFlux(Task.class)
-				.subscribe(System.out::println);
+				.doOnNext(System.out::println).blockLast();
 
 	}
 

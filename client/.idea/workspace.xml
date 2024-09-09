@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3915acea-8681-4b16-a62a-1dc4227ee0c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../server/amplicode.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/resources/db/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../server/src/main/resources/db/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/client/ClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/client/ClientApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/server/config/R2DBCConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/server/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/server/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/model/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/server/repositoies/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/repositoies/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/java/org/example/server/service/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/org/example/server/service/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/test/java/org/example/server/ServerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/test/java/org/example/server/ServerApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +27,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/NysanderakaBTF/Rsocket_pr4.git&quot;,
-    &quot;accountId&quot;: &quot;d6eea5e8-4105-41b7-a445-77e1e34e0826&quot;
+    &quot;accountId&quot;: &quot;be833d98-f294-4875-8dac-dd5beceab169&quot;
   }
 }</component>
   <component name="GradleModuleStateConfig" initialized="true" />
@@ -70,7 +56,7 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Spring Boot.ClientApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;attempt2&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;misha-works&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/mihailgalcev/Desktop/рксп/4/client&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -114,6 +100,9 @@
       <workItem from="1725823826474" duration="1607000" />
       <workItem from="1725826020590" duration="64000" />
       <workItem from="1725826247655" duration="947000" />
+      <workItem from="1725874034763" duration="1197000" />
+      <workItem from="1725880929777" duration="1673000" />
+      <workItem from="1725882905700" duration="468000" />
     </task>
     <servers />
   </component>
